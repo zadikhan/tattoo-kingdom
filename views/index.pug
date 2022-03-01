@@ -1,0 +1,52 @@
+doctype html 
+html 
+  head 
+   title Tattoo Kingdom 
+   link(rel="icon", href="/static/tk.png")
+   style 
+     include ../static/style.css
+  body 
+    nav#navbar
+       ul
+         #logo 
+            img(src="/static/tk.png")
+            | TK.com                                                             
+         li #[a(href="/") HOME]
+         li #[a(href="/") ABOUT US]
+         li #[a(href="/") DESIGNS]
+         li #[a(href="/") SERVICES]
+         li #[a(href="/") CONTACT US]
+         hr
+    section#welcomesection 
+      div  Welcome to the world of INK 
+      div mark your body with TATTOO KINGDOM
+    section#introSection 
+        div wear your heart 
+        div on your skin
+        div in this life
+
+    section#introsecond
+        div My body is my Journal 
+        div and
+        div My tattoos are My Story 
+        
+    section#makersection
+        h2 Our Makers with Different Experiances  
+        .card 
+           p MARTIN LUTHER with an experiance of 10 years with an effective cost of Rs 9000 per centimeter square 
+        .card 
+           p JHON LAMBA with an experiance of 5 years with an effective cost of Rs 5000 per centimeter square
+        .card 
+           p BILL GATES with a experiance of 2 years with an effective cost of Rs 2000 per centimeter square
+    section#sponsorsection
+        h2 OUR SPONSORS 
+        div#sponsors
+             img(src="/static/twitterlogo.png", alt="sponsors tags",class="spimage")
+             img(src="/static/instagramlogo.png", alt="sponsors tags",class="spimage") 
+             img(src="/static/skypelogo.png", alt="sponsors tags",class="spimage")
+             img(src="/static/youtubelogo.png", alt="sponsors tags",class="spimage")
+             img(src="/static/fc.png", alt="sponsors tags",class="spimage")
+    footer#footer 
+      |  Copyrights 2019 under the name Tattoo Kingdom(TK.com) 
+    script 
+    include ../static/index.js

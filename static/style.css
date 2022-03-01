@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Akaya+Telivigala&family=Baloo+Bhaijaan+2&family=Comforter&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Akaya+Telivigala&family=Baloo+Bhaijaan+2&family=Comforter&family=Festive&display=swap');
+*{
+    margin: 0px;
+    box-sizing: border-box;
+    padding: 0;
+}
+title{
+    font-weight: bold;
+}
+#logo{
+    display: flex;
+    align-items: center;
+    margin: 0 14px;
+    height: 150px;
+    margin: 0 14px;
+    font-size: 40px;
+    color: darkred;
+
+
+
+}
+#logo img{
+    height: 150px;
+    filter: invert(1);
+}
+#navbar{
+    background-color:black;
+    padding: 20px 16px;
+    font-family: 'Akaya Telivigala', cursive;
+}
+#navbar ul{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 115px;
+
+}
+
+ #navbar li{
+    list-style: none;
+}
+#navbar li a{
+     color: white;
+     font-size: 2.0rem;
+    padding: 10px 40px;
+    text-decoration: none;
+}
+
+
+#navbar li a:hover{
+    background-color:blue;
+    font-size: 2rem;
+   padding: 10px 40px;
+   text-decoration: none;
+}
+#welcomesection{
+    background: center/cover no-repeat url("/static/welcome.jpg");
+    
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+  height: 450px;
+  width: 100%;
+  background-color: red;
+  font-family: 'Akaya Telivigala', cursive;
+  font-size: 50px;
+}
+
+#introSection{
+    color: white;
+    display:flex;
+    flex-direction: column;
+    justify-content: left;
+    background: center/cover no-repeat url("/static/tattoin.jpg");
+  height: 420px;
+  width: 100%;
+  background-color: red;
+  font-family: 'Akaya Telivigala', cursive;
+  font-size: 72px;
+}
+#introsecond{
+    background: center/cover no-repeat url("/static/tto.jpg");
+    height: 500px;
+    opacity: 0.9;
+    font-family: 'Akaya Telivigala', cursive;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    font-size: 72px;
+
+}
+#sponsorsection{
+    background-color: darkred;
+    height: 200px;
+}
+#makersection{
+    background: url("/static/rohit-raj-t54DqgOiIl4-unsplash.jpg");
+   font-family: 'Akaya Telivigala', cursive;
+  text-align: center;  
+  height: 400px;  
+  
+}
+.card{
+    text-align: left;
+    
+   font-family: 'Akaya Telivigala', cursive;
+    display: inline-block;
+    border: 2px solid black;
+    border-radius: 12px;
+    height: 200px;
+    margin: 23px 22px;
+    width: 30%;
+
+}
+#makersection h2{
+    font-size: 40px;
+}
+.card p{
+    font-size: 32px;
+    padding: 10px 22px;
+
+}
+#sponsorsection h2{
+   font-family: 'Akaya Telivigala', cursive;
+   text-align: center; 
+}
+#sponsors{
+    justify-content: center;
+    padding-bottom: 34px;
+    height: 120px;
+    max-width: 1000px;
+    margin: 27px auto;
+
+}
+.spimage{
+    height: 100%;
+    margin: 15px 34px;
+    justify-content: center;
+
+}
+
+#footer{
+    color: white;
+    background-color: black;
+    height: 45px;
+    font-size: 24px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
